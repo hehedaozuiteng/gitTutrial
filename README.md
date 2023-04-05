@@ -66,6 +66,31 @@ git restore --staged . 《 === 将所有staged 区域的更改送回到working s
 
 git add filename.type 《=== 将当个文件filename.type 加入到stage 中
 
+git commit -m "message"
+
+```
+
+```
+
+git log #查看历史commits
+
+git diff <hash> #将目前的git和指定的commit 进行对比
+
+git diff HEAD #将本地的working space 文件和branch最新的commit 进行对比
+
+git diff HEAD^ #将本地的working space 文件和branch上一个最新的commit 进行对比
+
+```
+
+
+### 上传并同步本地分支
+
+```
+
+git pull --rebase
+
+git push
+
 ```
 
 
